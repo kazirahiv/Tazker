@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Tazker</title>
-  <?php include("includes/content_head.php");?>
-</head>
-<body class="hold-transition sidebar-mini">
-<!-- Site wrapper -->
-<div class="wrapper">
-  <!-- Nav Bar -->
-  <?php include("includes/content_nav_bar.php");?>
-
-  <!-- Main Sidebar Container -->
-
-  <?php include("includes/content_sidebar.php");?>
+<?php include("../Filter/AuthFilter.php");?>
+<?php include("includes/content_head.php");?>
 
 
   <!-- Content Wrapper. Contains page content -->
@@ -424,16 +411,10 @@
 
     </section>
     <!-- /.content -->
-  </div>
+  </div>  
   <!-- /.content-wrapper -->
-  
-  <!-- Main Sidebar Container -->
-
-  <?php include("includes/content_footer.php");?>
-   
-</div>
-<!-- ./wrapper -->
-
 <?php include("includes/content_js.php");?>
-</body>
-</html>
+
+<?php include("includes/content_footer.php");?>
+   
+

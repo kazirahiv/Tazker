@@ -1,5 +1,4 @@
-<?php session_start(); ?>
-  
+
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
@@ -25,7 +24,7 @@
                with font-awesome or any other icon font library -->
             <li class="nav-header">Projects</li>
             <li class="nav-item">
-                <a href="/tazker/AddProject.php" class="nav-link">
+                <a href="Projects.php" class="nav-link">
                     <i class="nav-icon fas fa-puzzle-piece"></i>
                     <p>
                         Add Projects
@@ -65,10 +64,20 @@
             
             <li class="nav-header">Teams</li>
             <li class="nav-item">
-                <a href="pages/calendar.html" class="nav-link">
+                <a href="Teams.php" class="nav-link">
                     <i class="nav-icon fas fa-users"></i>
                     <p>
-                        Add Teams
+                        Teams
+                    </p>
+                </a>
+            </li>
+
+
+            <li class="nav-item">
+                <a href="Members.php" class="nav-link">
+                    <i class="nav-icon fas fa-users"></i>
+                    <p>
+                        Members
                     </p>
                 </a>
             </li>
